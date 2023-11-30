@@ -11,7 +11,8 @@ let cakes =
 			"milk"
 		],
 		price: 5,
-		rating: 5
+		rating: 5,
+		cakesSold: 0
 	},
 
 	// Tea Loaf
@@ -26,7 +27,8 @@ let cakes =
 			"strong tea",
 		],
 		price: 2,
-		rating: 3
+		rating: 3,
+		cakesSold: 0
 	},
 
 	// Carrot Cake
@@ -41,7 +43,8 @@ let cakes =
 			"sugar",
 		],
 		price: 8,
-		rating: 5
+		rating: 5,
+		cakesSold: 0
 	}
 ];
 

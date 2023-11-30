@@ -1,8 +1,10 @@
 import Cake from "./Cake";
 const CakeList = ({cakes}) => {    
    
+    const onButtonClick = () =>
+
     const cakeComponents = cakes.map((cake) => {
-        return <Cake cake={cake}/>
+        return <Cake cake={cake} onButtonClick={onButtonClick}/>
     })
 
     return(
